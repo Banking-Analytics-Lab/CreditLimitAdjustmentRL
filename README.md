@@ -1,2 +1,3 @@
-# CreditLimitAdjustmentRL
-Credit limit adjustment using Reinforcement Learning
+# Credit Limit Adjustment using Reinforcement Learning
+
+
