@@ -2,7 +2,7 @@
 
 <p align = "justify">
 This repository contains the formulation and results of the research project conducted in 2021-2022 with Rappi Company information; this work was done under the supervision of Dr. Cristián Bravo Roman and Dr. Kristina Sendova and performed by Sherly Alfonso Sánchez, a Ph.D. student at Western University.
-The codes for this project can be found in [Codes](https://github.com/Banking-Analytics-Lab/CreditLimitAdjustmentRL/tree/main/Codes)
+The codes for this project can be found in [Codes](../main/Codes)
 </p>
 
 
