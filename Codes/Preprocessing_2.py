@@ -265,5 +265,4 @@ print(f'Percentage of customers that satisfy this condition {round(df_global_all
 df_all_c = df_global_all[~condition].reset_index()
 df_all_c= df_all_c.drop(['index', 'z'], axis=1)
 df_all_c.to_pickle('df_train_secon_2.pkl')
-print(df_all_c.shape)
-print(df_all_c.columns)
+
