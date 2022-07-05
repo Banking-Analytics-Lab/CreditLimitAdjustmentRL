@@ -110,4 +110,4 @@ df_9101112 = pd.merge(names_dfs_context[4], names_dfs_context[5],on='APPLICATION
 df_1_8=pd.merge(df_1234, df_5678,on='APPLICATION_USER_ID', how='outer').drop_duplicates()
 df_payment_history_faster = pd.merge(df_1_8, df_9101112,on='APPLICATION_USER_ID', how='outer').drop_duplicates()
 df_history_payment = df_payment_history_faster.drop_duplicates(subset=['APPLICATION_USER_ID'])
-df_history_payment.to_csv('df_payment_history_280322', index=False)
+df_history_payment.to_csv('df_payment_history_280322.pkl', index=False)
