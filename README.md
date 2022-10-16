@@ -1,7 +1,7 @@
 # Credit Limit Adjustment using Reinforcement Learning
 
 <p align = "justify">
-This repository contains the formulation and results of the research project conducted in 2021-2022 with Rappi Company information; this work was done as the first project during my PhD studies at Western University, under the supervision of Dr. Cristián Bravo Roman and Dr. Kristina Sendova.
+This repository contains the formulation and results of the research project conducted in 2021-2022 with Rappi Company information; this work was done as the first project during my PhD studies at Western University, under the supervision of Dr. Cristián Bravo Roman and Dra. Kristina Sendova.
 </p>
 
 
