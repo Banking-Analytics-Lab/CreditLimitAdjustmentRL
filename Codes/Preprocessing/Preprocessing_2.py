@@ -24,7 +24,7 @@ payment_history = payment_history.reset_index(drop=True)
 retro_prosp_data= pd.DataFrame(payment_history[(payment_history.E_6=='ACTIVE')&(payment_history.E_7=='ACTIVE')&(payment_history.E_8=='ACTIVE')&(payment_history.E_9=='ACTIVE')&(payment_history.E_10=='ACTIVE')&(payment_history.E_11=='ACTIVE')])
 retro_prosp_data.shape
 
-# Replace nan values in outstanding balance and payments by zero values
+# Replace nan values in outstanding balance and payments by zero values (in this case the proportion is <20%)
 for j in ['1','2', '3', '4', '5','6','7','8','9', '10','11']:
     retro_prosp_data['OB_'+str(j)] = retro_prosp_data['OB_'+str(j)].replace(np.nan,0)
     # This is because for our formulation of provisions we need the balance less than or equal to the credit limit
