@@ -78,6 +78,7 @@ retros_prosp_data_with_global_allmonths['FCC']= pd.to_datetime(retros_prosp_data
 # Observe extreme values for limits
 data_woe_allmonths = retros_prosp_data_with_global_allmonths[~(retros_prosp_data_with_global_allmonths.L_R>100000)]
 print(f'The proportion of customers with LR greater than is 100.000 is: {round(1-data_woe_allmonths.shape[0]/retros_prosp_data_with_global_allmonths.shape[0],3)} this is less than 1%')
+# The proportion of customers with LR greater than is 100.000 is: 0.004 this is less than 1%
 
 ####################################################################
 # Fixing some inconsistencies given in the data
@@ -94,6 +95,7 @@ for i in range(n):
             z0[i] += 1
 
 print(f'There are {int(z0.sum())} observations where the outstanding balance is positive and the payment is zero, this is {round(z0.sum()/(11*n)*100,2)}% of the data set.')
+# There are 10709 observations where the outstanding balance is positive and the payment is zero, this is 7.02% of the data set.
 
 # Calculate the proportion of inconsistencies, this is the observations where the outstanding balance is positive, the payment is zero and EO==0 and CIM=False
 
@@ -105,6 +107,7 @@ for i in range(n):
             z[i] += 1 
 
 print(f'There are {int(z.sum())} inconsistent observations , this is {round(z.sum()/(11*n)*100,2)}% of the data set.')
+# There are 5649 inconsistent observations , this is 3.7% of the data set.
 
 # Ambiguous information 
 
@@ -116,6 +119,7 @@ for i in range(n):
             z2[i] += 1
 
 print(f'Percentage of ambiguous information (CIM and ESTADO_OPERATIVO): {round(z2.sum()/(11*n)*100,2)}%')
+# Percentage of ambiguous information (CIM and ESTADO_OPERATIVO): 2.72%
 
 # Correct the information using the Minimum payment variable from January until November
 
