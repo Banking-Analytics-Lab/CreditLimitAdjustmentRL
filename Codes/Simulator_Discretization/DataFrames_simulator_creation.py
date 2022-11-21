@@ -101,7 +101,7 @@ for (i,j) in list_options:
 #  The Avg Remainded is greater than or equal the remainder given the maintain action 
 
 for (i,j) in list_options:
-    if (j==1):
+    if (i==1):
         Aux_df_2 = pd.concat({'Avg_Remain_pros_ac1': dataframes['df'+str(i)+str(j)]['Avg_Remain_pros'],
                               'Avg_Remain_pros_ac0':  dataframes['df'+str(i)+str(j-1)]['Avg_Remain_pros']}, axis=1)
         dataframes['df'+str(i)+str(j)]['Avg_Remain_pros'] = Aux_df_2[['Avg_Remain_pros_ac1', 'Avg_Remain_pros_ac0']].apply(max, axis=1)
