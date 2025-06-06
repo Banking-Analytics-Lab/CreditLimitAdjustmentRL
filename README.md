@@ -1,7 +1,7 @@
 # Credit Limit Adjustment using Reinforcement Learning
 
 <p align = "justify">
-This repository contains the formulation and results of the research project conducted in 2021-2022 with Rappi Company information; this work was done as the first project by Ph.D. candidate Ms. Sherly Alfonso-Sanchez, under the supervision of Dr. Cristián Bravo Roman and Dr. Kristina Sendova, and with colaboration of Dr. Alejandro Correa Bahnsen and MSc. Jesus Solano. The work has been published at [EJOR](https://www.sciencedirect.com/science/article/pii/S037722172300975X) . Please cite this work as follows:
+This repository contains the formulation and results of the research project conducted in 2021-2022 with Rappi Company information; this work was done as the first project by Ph.D. candidate Ms. Sherly Alfonso-Sanchez, under the supervision of Dr. Cristián Bravo Roman and Dr. Kristina Sendova, and with colaboration of Dr. Alejandro Correa Bahnsen and MSc. Jesus Solano. The work has been published at <a href=https://www.sciencedirect.com/science/article/pii/S037722172300975X>EJOR</a> . Please cite this work as follows:
 
   Alfonso-Sánchez, S., Solano, J., Correa-Bahnsen, A., Sendova, K. P., & Bravo, C. (2024). Optimizing credit limit adjustments under adversarial goals using reinforcement learning. *European Journal of Operational Research*, 315(2), 802-817.
 </p>
