@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the paper below."
 title: "CreditLimitAdjustmentRL"
+license: Apache-2.0
 authors:
   - family-names: "Alfonso-Sánchez"
     given-names: "Sherly"
