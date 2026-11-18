@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "CreditLimitAdjustmentRL"
+authors:
+  - family-names: "Alfonso-Sánchez"
+    given-names: "Sherly"
+  - family-names: "Solano"
+    given-names: "Jesús"
+  - family-names: "Correa-Bahnsen"
+    given-names: "Alejandro"
+  - family-names: "Sendova"
+    given-names: "Kristina P."
+  - family-names: "Bravo"
+    given-names: "Cristián"
+preferred-citation:
+  type: article
+  title: "Optimizing credit limit adjustments under adversarial goals using reinforcement learning"
+  year: 2024
+  journal: "European Journal of Operational Research"
+  volume: 315
+  issue: 2
+  start: 802
+  end: 817
+  doi: "10.1016/j.ejor.2023.12.025"
+  authors:
+    - family-names: "Alfonso-Sánchez"
+      given-names: "Sherly"
+    - family-names: "Solano"
+      given-names: "Jesús"
+    - family-names: "Correa-Bahnsen"
+      given-names: "Alejandro"
+    - family-names: "Sendova"
+      given-names: "Kristina P."
+    - family-names: "Bravo"
+      given-names: "Cristián"
