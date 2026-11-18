@@ -154,7 +154,7 @@ Table and figure numbers follow the arXiv preprint (version 2). Every output bel
 
 ## Licence
 
-Licence: pending.
+Apache License 2.0. See [LICENSE](LICENSE).
 
 ## Acknowledgements
 
