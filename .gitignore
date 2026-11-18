@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Data and outputs: the data are not released, and the scripts write into the working folder
+data/*
+!data/README.md
